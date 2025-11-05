@@ -48,7 +48,7 @@ DB_PASSWORD=your_password
 
 ### 5. Buat Database
 ```bash
-psql -U postgres -d produk_db -f database/produk_db.sql
+CREATE DATABASE produk_db;
 ```
 
 ### 6. Migrate Database
